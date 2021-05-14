@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "dev1": "cross-env NODE_OPTIONS='--inspect' next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "isomorphic-unfetch": "^3.1.0",
     "next": "^10.2.0",
     "nprogress": "^0.2.0",
